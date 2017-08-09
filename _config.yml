@@ -16,8 +16,7 @@
 title: Josh Fernandes' Project Homepage
 Ctitle: Josh Fernades' Contact Information
 email: joshfernandes@mac.com
-description: > # this means to ignore newlines until "baseurl:"
-  This site will host updates to project I work on.
+description: This site will host updates to projects I work on, and will have a complete list of my publications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://joshuamfernandes.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joshmfernandes
