@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Josh Fernandes' Project Homepage
-Ctitle: Josh Fernades' Contact Information
+Ctitle: Contact Information
 email: joshfernandes@mac.com
 description: This site will host updates to projects I work on, and will have a complete list of my publications.
 baseurl: "" # the subpath of your site, e.g. /blog
