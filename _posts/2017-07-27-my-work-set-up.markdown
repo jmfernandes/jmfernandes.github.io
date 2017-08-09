@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Work Set Up"
-date:   2017-07-27 14:45:57 -0700
+date:   2017-07-27 14:35:57 -0700
 categories: personal
 ---
 
