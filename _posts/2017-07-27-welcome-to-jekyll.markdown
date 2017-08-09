@@ -1,25 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My Work Set Up"
 date:   2017-07-27 14:45:57 -0700
-categories: jekyll update
+categories: personal
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This post is to document all the programs I use on my work laptop. First all my writing is done with [Atom][atom-link]. I use this because not only does it provide a lot of the same features that Sublime text has, but it can also be used as a Latex compiler. The current list of packages I have installed are
 
-Jekyll also offers powerful support for code snippets:
+#
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+- autoclose-html
+- autocomplete-python
+- kite
+- language-latex
+- latex
+- linter
+- linter-htmlhint
+- minimap-plus
+- pigments
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+I also use the [cd to][cd-link] tool to be able to open a terminal window in the current finder directory. It makes it easy to always make sure you are in the correct directory for running git commands or other folder specific commands. Lastly, I run [flux][flux-link] to make sure that I don't stay up late coding. 
+
+[atom-link]: https://atom.io
+[cd-link]:   https://github.com/jbtule/cdto
+[flux-link]: https://justgetflux.com
