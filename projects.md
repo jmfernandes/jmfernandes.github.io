@@ -7,12 +7,24 @@ permalink: /projects/
 ### Websites
 
 
-- Online todo list that stores the list locally. [(link)][todolist-link]
+##### Python
+
+
 - Number database - [datanab.net][datanab-link]
+
+
+##### AngularJS
+
+- Online todo list that stores the list locally. [(link)][todolist-link]
 - Load JSON data from webserver. [(link)][server-link]
-- Load array of JSON data in searchable list and display different views using $routes [(link)][project5-link]
+- Load array of JSON data in searchable list and display different views using the $route service. [(link)][project5-link]
+
+##### ReactJS
+
+- Android calculator app. [GitHub Repo][calculator-link]
 
 [datanab-link]: http://www.datanab.net
 [todolist-link]: http://joshuamfernandes.com/project3
 [server-link]: http://joshuamfernandes.com/project4/
 [project5-link]: http://joshuamfernandes.com/project5/
+[calculator-link]: https://github.com/jmfernandes/Android/tree/master/Project1
