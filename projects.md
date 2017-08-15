@@ -4,22 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
-### Websites
-
-
-##### Python
-
+#### Python
 
 - Number database - [datanab.net][datanab-link]
 
-
-##### AngularJS
+#### AngularJS
 
 - Online todo list that stores the list locally. [(link)][todolist-link]
 - Load JSON data from webserver. [(link)][server-link]
 - Load array of JSON data in searchable list and display different views using the $route service. [(link)][project5-link]
 
-##### ReactJS
+#### ReactJS
 
 - Android calculator app. [GitHub Repo][calculator-link]
 
