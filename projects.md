@@ -14,6 +14,7 @@ permalink: /projects/
 - Load JSON data from webserver. [(link)][server-link]
 - Load array of JSON data in searchable list and display different views using the $route service. [(link)][project5-link]
 - Stopwatch App. [(link)][stopwatch-link]
+
 #### ReactJS
 
 - Android calculator app. [GitHub Repo][calculator-link]
