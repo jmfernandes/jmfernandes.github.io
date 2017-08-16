@@ -13,7 +13,7 @@ permalink: /projects/
 - Online todo list that stores the list locally. [(link)][todolist-link]
 - Load JSON data from webserver. [(link)][server-link]
 - Load array of JSON data in searchable list and display different views using the $route service. [(link)][project5-link]
-
+- Stopwatch App. [(link)][stopwatch-link]
 #### ReactJS
 
 - Android calculator app. [GitHub Repo][calculator-link]
@@ -23,3 +23,4 @@ permalink: /projects/
 [server-link]: http://joshuamfernandes.com/project4/
 [project5-link]: http://joshuamfernandes.com/project5/
 [calculator-link]: https://github.com/jmfernandes/Android/tree/master/Project1
+[stopwatch-link]:http://joshuamfernandes.com/project6/
