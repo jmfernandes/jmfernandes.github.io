@@ -13,7 +13,7 @@ permalink: /projects/
 - Online todo list that stores the list locally. [(link)][todolist-link]
 - Load JSON data from webserver. [(link)][server-link]
 - Load array of JSON data in searchable list and display different views using the $route service. [(link)][project5-link]
-- Stopwatch App. [(link)][stopwatch-link]
+- Home portal that links to a stopwatch app and currency converter app. Uses multiple controllers. [(link)][stopwatch-link]
 
 #### ReactJS
 
