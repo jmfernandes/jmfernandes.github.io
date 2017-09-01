@@ -20,6 +20,10 @@ permalink: /projects/
 
 - Android calculator app. [GitHub Repo][calculator-link]
 
+#### Labview
+
+- Code to take a list of names form a .csv file and organize them into groups. [(link)][labview-group]
+
 [datanab-link]: http://www.datanab.net
 [todolist-link]: http://joshuamfernandes.com/project3
 [server-link]: http://joshuamfernandes.com/project4/
@@ -27,3 +31,4 @@ permalink: /projects/
 [calculator-link]: https://github.com/jmfernandes/Android/tree/master/Project1
 [stopwatch-link]:http://joshuamfernandes.com/project6/
 [project7-link]:http://joshuamfernandes.com/project7/
+[labview-group]: https://github.com/jmfernandes/Labview/tree/master/GroupSorter
