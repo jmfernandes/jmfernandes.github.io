@@ -18,11 +18,11 @@ permalink: /projects/
 
 #### ReactJS
 
-- Android calculator app. [GitHub Repo][calculator-link]
+- Android calculator app. [(GitHub Repo)][calculator-link]
 
 #### Labview
 
-- Code to take a list of names form a .csv file and organize them into groups. [(link)][labview-group]
+- Code to take a list of names form a .csv file and organize them into groups. [(GitHub Repo)][labview-group]
 
 [datanab-link]: http://www.datanab.net
 [todolist-link]: http://joshuamfernandes.com/project3
