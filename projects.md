@@ -7,6 +7,7 @@ permalink: /projects/
 #### Python
 
 - Number database - [datanab.net][datanab-link]
+- Vigenère cipher - [(GitHub Repo)][python-cipher]
 
 #### AngularJS
 
@@ -32,3 +33,4 @@ permalink: /projects/
 [stopwatch-link]:http://joshuamfernandes.com/project6/
 [project7-link]:http://joshuamfernandes.com/project7/
 [labview-group]: https://github.com/jmfernandes/Labview/tree/master/GroupSorter
+[python-cipher]: https://github.com/jmfernandes/Python/tree/master/cipher
