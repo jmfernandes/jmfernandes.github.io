@@ -23,6 +23,10 @@ permalink: /projects/
 
 - Android calculator app. [(GitHub Repo)][calculator-link]
 
+#### Bash
+
+- Script to automatically create programming files with a header. [(GitHub Repo)][bash-create]
+
 #### Labview
 
 - Code to take a list of names form a .csv file and organize them into groups. [(GitHub Repo)][labview-group]
@@ -38,3 +42,4 @@ permalink: /projects/
 [python-cipher]: https://github.com/jmfernandes/Python/tree/master/cipher
 [project8-link]: http://joshuamfernandes.com/project8/
 [project9-link]: http://joshuamfernandes.com/project9/
+[bash-create]: https://github.com/jmfernandes/Bash/blob/master/make_file.sh
