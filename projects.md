@@ -12,6 +12,7 @@ permalink: /projects/
 
 #### AngularJS
 
+- Online version of Hex based board initially created with Python.[(link)][angular-hex]
 - Online todo list that stores the list locally. [(link)][todolist-link]
 - Load JSON data from webserver. [(link)][server-link]
 - Load array of JSON data in searchable list and display different views using the $route service. [(link)][project5-link]
@@ -45,3 +46,4 @@ permalink: /projects/
 [project9-link]: http://joshuamfernandes.com/project9/
 [bash-create]: https://github.com/jmfernandes/Bash/blob/master/make_file.sh
 [board-link]: https://github.com/jmfernandes/Python/blob/master/pyqt/hex.py
+[angular-hex]: http://joshuamfernandes.com/project11/
