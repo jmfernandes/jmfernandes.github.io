@@ -8,6 +8,7 @@ permalink: /projects/
 
 - Number database - [datanab.net][datanab-link]
 - Vigenère cipher - [(GitHub Repo)][python-cipher]
+- Hex based board that creates line between two selected hexes - [(GitHub Repo)][board-link]
 
 #### AngularJS
 
@@ -43,3 +44,4 @@ permalink: /projects/
 [project8-link]: http://joshuamfernandes.com/project8/
 [project9-link]: http://joshuamfernandes.com/project9/
 [bash-create]: https://github.com/jmfernandes/Bash/blob/master/make_file.sh
+[board-link]: https://github.com/jmfernandes/Python/blob/master/pyqt/hex.py
