@@ -9,7 +9,10 @@ permalink: /projects/
 - Number database - [datanab.net][datanab-link]
 - Vigenère cipher - [(GitHub Repo)][python-cipher]
 - Hex based board that creates line between two selected hexes - [(GitHub Repo)][board-link]
-> ##### Flask Web Development
+
+#### Flask Web Development
+
+- Simple hello world with angularJS as front end - [(GitHub Repo)][flask-project1]
 
 #### AngularJS
 
@@ -48,3 +51,4 @@ permalink: /projects/
 [bash-create]: https://github.com/jmfernandes/Bash/blob/master/make_file.sh
 [board-link]: https://github.com/jmfernandes/Python/blob/master/pyqt/hex.py
 [angular-hex]: http://joshuamfernandes.com/project11/
+[flask-project1]: https://github.com/jmfernandes/flask/tree/master/project1
