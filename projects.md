@@ -10,6 +10,8 @@ permalink: /projects/
 - Vigenère cipher - [(GitHub Repo)][python-cipher]
 - Hex based board that creates line between two selected hexes - [(GitHub Repo)][board-link]
 
+&nbsp;&nbsp;&nbsp;&nbsp; ##### Flask Web Development
+
 #### AngularJS
 
 - Online version of Hex based board initially created with Python.[(link)][angular-hex]
