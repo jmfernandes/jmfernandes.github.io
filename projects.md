@@ -14,6 +14,10 @@ permalink: /projects/
 
 - Simple hello world with angularJS as front end - [(GitHub Repo)][flask-project1]
 
+#### Django Web Development
+
+- Poll app from Django tutorial website - [(GitHub Repo)][django-project1]
+
 #### AngularJS
 
 - Online version of Hex based board initially created with Python.[(link)][angular-hex]
@@ -52,3 +56,4 @@ permalink: /projects/
 [board-link]: https://github.com/jmfernandes/Python/blob/master/pyqt/hex.py
 [angular-hex]: http://joshuamfernandes.com/project11/
 [flask-project1]: https://github.com/jmfernandes/flask/tree/master/project1
+[django-project1]: https://github.com/jmfernandes/django/tree/master/project1
