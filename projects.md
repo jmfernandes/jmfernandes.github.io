@@ -16,7 +16,7 @@ permalink: /projects/
 
 #### Django Web Development
 
-- Poll app from Django tutorial website - [(GitHub Repo)][django-project1]
+- Poll app from Django tutorial website - [(link)][django-project1]
 
 #### AngularJS
 
@@ -56,4 +56,4 @@ permalink: /projects/
 [board-link]: https://github.com/jmfernandes/Python/blob/master/pyqt/hex.py
 [angular-hex]: http://joshuamfernandes.com/project11/
 [flask-project1]: https://github.com/jmfernandes/flask/tree/master/project1
-[django-project1]: https://github.com/jmfernandes/django/tree/master/project1
+[django-project1]: https://crag-demo.herokuapp.com/polls/
