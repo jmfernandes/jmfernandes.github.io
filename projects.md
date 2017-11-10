@@ -16,6 +16,7 @@ permalink: /projects/
 
 #### Django Web Development
 
+- Online list with unique url for each visitor - [(link)][django-project2]
 - Poll app from Django tutorial website - [(link)][django-project1]
 
 #### AngularJS
@@ -57,3 +58,4 @@ permalink: /projects/
 [angular-hex]: http://joshuamfernandes.com/project11/
 [flask-project1]: https://github.com/jmfernandes/flask/tree/master/project1
 [django-project1]: https://crag-demo.herokuapp.com/polls/
+[django-project2]: https://django-poll-jf.herokuapp.com
