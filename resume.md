@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /:title
+permalink: /resume/
 ---
 [Get the PDF]({{ "/assets/images/resume.pdf" | relative_url }})
 
