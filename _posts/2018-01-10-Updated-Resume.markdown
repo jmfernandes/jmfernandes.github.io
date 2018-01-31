@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Updated Resume"
-date:   2018-01-30 15:51:00 -0800
+date:   2018-01-10 10:21:00 -0800
 categories: personal
 permalink: /:categories/:title
 ---
