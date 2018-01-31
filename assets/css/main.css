@@ -34,8 +34,11 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-  max-width: 60%;
+  max-width: 100%;
   vertical-align: middle; }
+
+img[alt=drawing] { width: 60%; }
+img[alt=resume] { width: 100%; }
 
 /**
  * Figures
