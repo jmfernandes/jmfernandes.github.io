@@ -3,6 +3,7 @@ layout: post
 title:  "DATANAB.NET - number database"
 date:   2017-07-27 14:55:57 -0700
 categories: website
+permalink: /:categories/:title
 ---
 I've finished the bulk of the programming for my website [Datanab.net][data] where you can view the number database I've created. I also have a unit converter and there are plans to add population statistics to the website. All the information is contained on its own JSON page.
 
