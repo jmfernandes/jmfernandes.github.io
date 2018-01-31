@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DATANAB.NET - number database"
-date:   2017-07-27 14:55:57 -0700
+date:   2017-07-27 14:55:57 -0800
 categories: website
 permalink: /:categories/:title
 ---

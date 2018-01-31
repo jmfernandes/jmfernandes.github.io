@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Work Set Up"
-date:   2017-07-28 14:35:57 -0700
+date:   2017-07-28 14:35:57 -0800
 categories: personal
 permalink: /:categories/:title
 ---
