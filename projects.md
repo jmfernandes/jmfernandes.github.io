@@ -8,7 +8,7 @@ permalink: /projects/
 
 - Number database - [datanab.net][datanab-link]
 - Vigenère cipher - [(GitHub Repo)][python-cipher]
-- Hex based board that creates line between two selected hexes - [(GitHub Repo)][board-link]
+- Hex based board that creates line between two selected hexes - [(link)][board-link]
 - A budget planner using PyQT [(link)][finance-project]
 
 #### Flask Web Development
