@@ -2,7 +2,6 @@
 layout: page
 title: Publications
 permalink: /publications/
-navigate: yes
 ---
 
 ### 2017
