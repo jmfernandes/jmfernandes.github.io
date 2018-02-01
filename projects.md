@@ -8,8 +8,10 @@ permalink: /projects/
 
 - Number database - [datanab.net][datanab-link]
 - Vigenère cipher - [(GitHub Repo)][python-cipher]
-- Hex based board that creates line between two selected hexes - [(link)][board-link]
-- A budget planner using PyQT - [(link)][finance-project]
+- Hex based board that creates line between two selected hexes -
+[(link)]({{ site.baseurl }}{% link projects/python_hex.html %})
+- A budget planner using PyQT -
+[(link)]({{ site.baseurl }}{% link projects/pynance.html %})
 
 #### Flask Web Development
 
@@ -55,9 +57,7 @@ permalink: /projects/
 [project8-link]: http://joshuamfernandes.com/project8/
 [project9-link]: http://joshuamfernandes.com/project9/
 [bash-create]: https://github.com/jmfernandes/Bash/blob/master/make_file.sh
-[board-link]: http://joshuamfernandes.com/python_hex
 [angular-hex]: http://joshuamfernandes.com/project11/
 [flask-project1]: https://github.com/jmfernandes/flask/tree/master/project1
 [django-project1]: https://crag-demo.herokuapp.com/polls/
 [django-project2]: https://django-poll-jf.herokuapp.com
-[finance-project]: http://joshuamfernandes.com/pynance
