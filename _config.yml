@@ -28,6 +28,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  -
+    scope:
+      path:"projects"
+    values:
+      layout: "default"
+      author: "Josh Fernandes"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
