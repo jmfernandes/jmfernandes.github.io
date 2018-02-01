@@ -2,6 +2,7 @@
 layout: page
 title: Library
 permalink: /library/
+navigate: yes
 ---
 
 #### Programming
