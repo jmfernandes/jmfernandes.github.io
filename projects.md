@@ -60,4 +60,4 @@ permalink: /projects/
 [angular-hex]: http://joshuamfernandes.com/project11/
 [flask-project1]: https://github.com/jmfernandes/flask/tree/master/project1
 [django-project1]: https://crag-demo.herokuapp.com/polls/
-[django-project2]: https://superlists.joshuamfernandes.com
+[django-project2]: http://superlists.joshuamfernandes.com
