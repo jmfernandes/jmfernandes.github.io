@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C# Game Development"
-date:   2018-01-30 15:51:00 -0800
+date:   2018-06-19 15:00:00 -0800
 categories: programming
 permalink: /:categories/:title
 ---
