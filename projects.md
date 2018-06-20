@@ -12,6 +12,7 @@ permalink: /projects/
 [(link)]({{ site.baseurl }}{% link projects/python_hex.html %})
 - A budget planner using PyQT -
 [(link)]({{ site.baseurl }}{% link projects/pynance.html %})
+- Python library to interact with Robinhood Financial API [(link)][robin-link]
 
 #### Flask Web Development
 
@@ -61,3 +62,4 @@ permalink: /projects/
 [flask-project1]: https://github.com/jmfernandes/flask/tree/master/project1
 [django-project1]: https://crag-demo.herokuapp.com/polls/
 [django-project2]: http://superlists.joshuamfernandes.com
+[robin-link]: https://pypi.org/project/robin-stocks/
