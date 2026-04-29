@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+<BaseLayout title="Home">
+  <div class="home-intro">
+    <img class="profile-img" src="/images/profile.png" alt="Josh Fernandes" width="90" height="90" />
+    <div class="home-bio">
+      <h1>Josh Fernandes</h1>
+      <p>Software engineer. Writing about programming, projects, and whatever else I'm working on.</p>
+    </div>
+  </div>
+
+  <p class="posts-heading">Writing</p>
+
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <div class="post-date">{formatDate(post.data.date)}</div>
+        <a class="post-title-link" href={`/blog/${post.id}`}>{post.data.title}</a>
+      </li>
+    ))}
+  </ul>
+
+  <a class="rss-link" href="/rss.xml">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+    </svg>
+    Subscribe via RSS
+  </a>
+</BaseLayout>

@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Resume" description="Josh Fernandes resume.">
+  <div class="page-header">
+    <h1>Resume</h1>
+    <a href="/resume.pdf" target="_blank" rel="noopener" style="font-size: 0.9rem;">Download PDF &darr;</a>
+  </div>
+
+  <iframe
+    src="/resume.pdf"
+    width="100%"
+    style="height: 80vh; border: 1px solid var(--border); border-radius: 8px;"
+    title="Josh Fernandes Resume"
+  ></iframe>
+</BaseLayout>
