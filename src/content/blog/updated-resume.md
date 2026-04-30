@@ -1,5 +1,5 @@
 ---
-title: "Updated Resume"
+title: 'Updated Resume'
 date: 2018-01-10
 categories: personal
 description: Shifting my resume focus from scientific research toward software engineering.

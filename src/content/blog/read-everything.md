@@ -1,5 +1,5 @@
 ---
-title: "Read Everything"
+title: 'Read Everything'
 date: 2018-01-30
 categories: programming
 description: Why reading all the documentation is worth it.

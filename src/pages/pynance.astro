@@ -1,14 +1,27 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import pynanceImg from '../assets/images/pynance.png';
 ---
+
 <BaseLayout title="Budget Planner" description="A PyQt budget planner app.">
   <div class="page-header">
     <h1>Budget Planner</h1>
   </div>
 
-  <p>A desktop budget planner built with PyQt. All numbers update in real time, and the total percentage turns red if you are spending more than 100% of your budget.</p>
+  <p>
+    A desktop budget planner built with PyQt. All numbers update in real time,
+    and the total percentage turns red if you are spending more than 100% of
+    your budget.
+  </p>
 
-  <p><a href="https://github.com/jmfernandes/Python/blob/master/pyqt/finance.py" target="_blank" rel="noopener">View on GitHub &rarr;</a></p>
+  <p>
+    <a
+      href="https://github.com/jmfernandes/Python/blob/master/pyqt/finance.py"
+      target="_blank"
+      rel="noopener">View on GitHub &rarr;</a
+    >
+  </p>
 
-  <img src="/images/pynance.png" alt="Pynance budget planner screenshot" />
+  <Image src={pynanceImg} alt="Pynance budget planner screenshot" />
 </BaseLayout>

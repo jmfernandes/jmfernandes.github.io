@@ -1,5 +1,5 @@
 ---
-title: "DATANAB.NET - Number Database"
+title: 'DATANAB.NET - Number Database'
 date: 2017-07-27
 categories: website
 description: Launching datanab.net, a number database with unit converter.

@@ -1,16 +1,32 @@
 ---
+import { getImage } from 'astro:assets';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+import profileImg from '../assets/images/profile.png';
 
 interface Props {
   title: string;
   description?: string;
 }
 
-const { title, description = "Josh Fernandes — projects, writing, and research." } = Astro.props;
-const pageTitle = title === 'Home' ? 'Josh Fernandes' : `${title} | Josh Fernandes`;
+const {
+  title,
+  description = 'Josh Fernandes — projects, writing, and research.',
+} = Astro.props;
+const pageTitle =
+  title === 'Home' ? 'Josh Fernandes' : `${title} | Josh Fernandes`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+const ogImage = await getImage({
+  src: profileImg,
+  width: 1200,
+  height: 630,
+  format: 'jpeg',
+});
+const ogImageUrl = new URL(ogImage.src, Astro.site).href;
 ---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,11 +34,47 @@ const pageTitle = title === 'Home' ? 'Josh Fernandes' : `${title} | Josh Fernand
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageUrl} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@joshmfernandes" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <!-- Favicons -->
     <link rel="icon" href="/favicons/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
-    <link rel="alternate" type="application/rss+xml" title="Josh Fernandes" href="/rss.xml" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Josh Fernandes"
+      href="/rss.xml"
+    />
   </head>
   <body>
     <Header />

@@ -1,5 +1,5 @@
 ---
-title: "My Work Set Up"
+title: 'My Work Set Up'
 date: 2017-07-28
 categories: personal
 description: The tools and apps I use day-to-day for coding.

@@ -1,5 +1,5 @@
 ---
-title: "C# Game Development"
+title: 'C# Game Development'
 date: 2018-06-19
 categories: programming
 description: Starting game development in Unity with C#.

@@ -1,5 +1,5 @@
 ---
-title: "Django and Angular"
+title: 'Django and Angular'
 date: 2018-06-10
 categories: programming
 description: Building full-stack apps with Django and Angular.
